@@ -1,0 +1,274 @@
+2025-03-20 11:37:11,010 - db_cleaner - INFO - Starting database cleaning operations
+2025-03-20 11:37:11,069 - db_cleaner - INFO - Connected to database Datapull on localhost
+2025-03-20 11:37:11,138 - db_cleaner - INFO - Found 11 tables in schema public
+2025-03-20 11:37:11,185 - db_cleaner - INFO - Starting email format cleaning
+2025-03-20 11:37:11,185 - db_cleaner - ERROR - Error cleaning emails in employe.email: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,185 - db_cleaner - ERROR - Error cleaning emails in entreprise.email: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,186 - db_cleaner - ERROR - Error cleaning emails in dirigeant.email: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,192 - db_cleaner - ERROR - Error cleaning emails in users.email: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,193 - db_cleaner - INFO - Starting phone format cleaning
+2025-03-20 11:37:11,193 - db_cleaner - ERROR - Error cleaning phones in employe.telephone: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,194 - db_cleaner - ERROR - Error cleaning phones in entreprise.telephone: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,194 - db_cleaner - ERROR - Error cleaning phones in dirigeant.telephone: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,194 - db_cleaner - ERROR - Error cleaning phones in users.telephone: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,195 - db_cleaner - INFO - Starting text field cleaning
+2025-03-20 11:37:11,197 - db_cleaner - ERROR - Error cleaning text field entreprise_dirigeant.entreprise_id: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,198 - db_cleaner - ERROR - Error cleaning text field attribut_partage.nom: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,198 - db_cleaner - ERROR - Error cleaning text field attribut_partage.valeur: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,198 - db_cleaner - ERROR - Error cleaning text field etablissement.siret: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,199 - db_cleaner - ERROR - Error cleaning text field etablissement.activite: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,199 - db_cleaner - ERROR - Error cleaning text field etablissement.code_ape: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,200 - db_cleaner - ERROR - Error cleaning text field etablissement.siren: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,200 - db_cleaner - ERROR - Error cleaning text field entreprise_attributs.entreprise_id: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,200 - db_cleaner - ERROR - Error cleaning text field entreprise_attributs.valeurc: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,201 - db_cleaner - ERROR - Error cleaning text field entreprise_attributs.nom_attributc: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,201 - db_cleaner - ERROR - Error cleaning text field employe.departement: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,201 - db_cleaner - ERROR - Error cleaning text field employe.email: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,202 - db_cleaner - ERROR - Error cleaning text field employe.facebook: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,202 - db_cleaner - ERROR - Error cleaning text field employe.instagram: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,202 - db_cleaner - ERROR - Error cleaning text field employe.linkedin: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,203 - db_cleaner - ERROR - Error cleaning text field employe.nom: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,203 - db_cleaner - ERROR - Error cleaning text field employe.poste: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,204 - db_cleaner - ERROR - Error cleaning text field employe.prenom: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,204 - db_cleaner - ERROR - Error cleaning text field employe.telephone: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,204 - db_cleaner - ERROR - Error cleaning text field employe.twitter: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,205 - db_cleaner - ERROR - Error cleaning text field employe.entreprise_id: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,205 - db_cleaner - ERROR - Error cleaning text field entreprise.siren: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,205 - db_cleaner - ERROR - Error cleaning text field entreprise.devise: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,206 - db_cleaner - ERROR - Error cleaning text field entreprise.nom_entreprise: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,206 - db_cleaner - ERROR - Error cleaning text field entreprise.activite_principale: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,207 - db_cleaner - ERROR - Error cleaning text field entreprise.code_ape: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,207 - db_cleaner - ERROR - Error cleaning text field entreprise.email: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,208 - db_cleaner - ERROR - Error cleaning text field entreprise.facebook: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,208 - db_cleaner - ERROR - Error cleaning text field entreprise.form_juridique: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,209 - db_cleaner - ERROR - Error cleaning text field entreprise.instagram: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,209 - db_cleaner - ERROR - Error cleaning text field entreprise.linked_in: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,209 - db_cleaner - ERROR - Error cleaning text field entreprise.secteur_activity: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,210 - db_cleaner - ERROR - Error cleaning text field entreprise.telephone: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,210 - db_cleaner - ERROR - Error cleaning text field entreprise.twitter: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,210 - db_cleaner - ERROR - Error cleaning text field user_roles.role: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,211 - db_cleaner - ERROR - Error cleaning text field dirigeant.email: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,211 - db_cleaner - ERROR - Error cleaning text field dirigeant.fonction: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,211 - db_cleaner - ERROR - Error cleaning text field dirigeant.nom: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,212 - db_cleaner - ERROR - Error cleaning text field dirigeant.prenom: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,218 - db_cleaner - ERROR - Error cleaning text field dirigeant.telephone: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,218 - db_cleaner - ERROR - Error cleaning text field adresses.code_pays: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,219 - db_cleaner - ERROR - Error cleaning text field adresses.code_postal: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,219 - db_cleaner - ERROR - Error cleaning text field adresses.commune: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,219 - db_cleaner - ERROR - Error cleaning text field adresses.complement_localisation: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,220 - db_cleaner - ERROR - Error cleaning text field adresses.num_voie: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,220 - db_cleaner - ERROR - Error cleaning text field adresses.pays: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,220 - db_cleaner - ERROR - Error cleaning text field adresses.voie: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,221 - db_cleaner - ERROR - Error cleaning text field file_upload.file_name: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,221 - db_cleaner - ERROR - Error cleaning text field file_upload.file_path: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,221 - db_cleaner - ERROR - Error cleaning text field file_upload.file_type: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,222 - db_cleaner - ERROR - Error cleaning text field file_upload.statut: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,222 - db_cleaner - ERROR - Error cleaning text field users.email: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,222 - db_cleaner - ERROR - Error cleaning text field users.nom: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,223 - db_cleaner - ERROR - Error cleaning text field users.password: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,223 - db_cleaner - ERROR - Error cleaning text field users.prenom: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,224 - db_cleaner - ERROR - Error cleaning text field users.telephone: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,224 - db_cleaner - ERROR - Error cleaning text field users.username: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,225 - db_cleaner - INFO - Starting date standardization
+2025-03-20 11:37:11,225 - db_cleaner - INFO - Standardized dates in etablissement.end_date
+2025-03-20 11:37:11,225 - db_cleaner - INFO - Standardized dates in etablissement.start_date
+2025-03-20 11:37:11,225 - db_cleaner - ERROR - Error standardizing dates in employe.date_depart: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,226 - db_cleaner - INFO - Standardized dates in employe.date_embauche
+2025-03-20 11:37:11,226 - db_cleaner - ERROR - Error standardizing dates in entreprise.date_creation: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,226 - db_cleaner - INFO - Standardized dates in dirigeant.date_debut_fonction
+2025-03-20 11:37:11,227 - db_cleaner - INFO - Standardized dates in dirigeant.date_fin_fonction
+2025-03-20 11:37:11,227 - db_cleaner - ERROR - Error standardizing dates in dirigeant.date_naissance: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,227 - db_cleaner - ERROR - Error standardizing dates in users.date_creation: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,227 - db_cleaner - INFO - Starting missing value filling
+2025-03-20 11:37:11,235 - db_cleaner - ERROR - Error filling missing values in entreprise.nbr_etablissements: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,235 - db_cleaner - ERROR - Error filling missing values in entreprise.nbr_etablissements_overt: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,236 - db_cleaner - ERROR - Error filling missing values in entreprise.nbr_etablissements_fermet: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,236 - db_cleaner - ERROR - Error filling missing values in entreprise.capital_sociale: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,237 - db_cleaner - ERROR - Error filling missing values in entreprise.chifre_affaire: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,237 - db_cleaner - ERROR - Error filling missing values in entreprise.effective: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,237 - db_cleaner - ERROR - Error filling missing values in entreprise.devise: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,241 - db_cleaner - ERROR - Error filling missing values in users.actif: 'Engine' object has no attribute 'execute'
+2025-03-20 11:37:11,241 - db_cleaner - INFO - Database cleaning completed successfully
+2025-03-20 13:29:20,618 - db_cleaner - INFO - Starting database cleaning operations
+2025-03-20 13:29:20,662 - db_cleaner - INFO - Connected to database Datapull on localhost
+2025-03-20 13:29:20,741 - db_cleaner - INFO - Found 11 tables in schema public
+2025-03-20 13:29:20,791 - db_cleaner - INFO - Starting email format cleaning
+2025-03-20 13:29:20,799 - db_cleaner - INFO - Cleaned email formats in employe.email
+2025-03-20 13:29:20,804 - db_cleaner - INFO - Cleaned email formats in entreprise.email
+2025-03-20 13:29:20,808 - db_cleaner - INFO - Cleaned email formats in dirigeant.email
+2025-03-20 13:29:20,811 - db_cleaner - INFO - Cleaned email formats in users.email
+2025-03-20 13:29:20,812 - db_cleaner - INFO - Starting phone format cleaning
+2025-03-20 13:29:20,814 - db_cleaner - INFO - Cleaned phone formats in employe.telephone
+2025-03-20 13:29:20,816 - db_cleaner - INFO - Cleaned phone formats in entreprise.telephone
+2025-03-20 13:29:20,817 - db_cleaner - INFO - Cleaned phone formats in dirigeant.telephone
+2025-03-20 13:29:20,819 - db_cleaner - INFO - Cleaned phone formats in users.telephone
+2025-03-20 13:29:20,819 - db_cleaner - INFO - Starting text field cleaning
+2025-03-20 13:29:20,821 - db_cleaner - INFO - Cleaned text field entreprise_dirigeant.entreprise_id
+2025-03-20 13:29:20,824 - db_cleaner - INFO - Cleaned text field attribut_partage.nom
+2025-03-20 13:29:20,826 - db_cleaner - INFO - Cleaned text field attribut_partage.valeur
+2025-03-20 13:29:20,830 - db_cleaner - INFO - Cleaned text field etablissement.siret
+2025-03-20 13:29:20,831 - db_cleaner - INFO - Cleaned text field etablissement.activite
+2025-03-20 13:29:20,831 - db_cleaner - INFO - Cleaned text field etablissement.code_ape
+2025-03-20 13:29:20,832 - db_cleaner - INFO - Cleaned text field etablissement.siren
+2025-03-20 13:29:20,834 - db_cleaner - INFO - Cleaned text field entreprise_attributs.entreprise_id
+2025-03-20 13:29:20,835 - db_cleaner - INFO - Cleaned text field entreprise_attributs.valeurc
+2025-03-20 13:29:20,836 - db_cleaner - INFO - Cleaned text field entreprise_attributs.nom_attributc
+2025-03-20 13:29:20,837 - db_cleaner - INFO - Cleaned text field employe.departement
+2025-03-20 13:29:20,838 - db_cleaner - INFO - Cleaned text field employe.email
+2025-03-20 13:29:20,839 - db_cleaner - INFO - Cleaned text field employe.facebook
+2025-03-20 13:29:20,840 - db_cleaner - INFO - Cleaned text field employe.instagram
+2025-03-20 13:29:20,841 - db_cleaner - INFO - Cleaned text field employe.linkedin
+2025-03-20 13:29:20,842 - db_cleaner - INFO - Cleaned text field employe.nom
+2025-03-20 13:29:20,843 - db_cleaner - INFO - Cleaned text field employe.poste
+2025-03-20 13:29:20,844 - db_cleaner - INFO - Cleaned text field employe.prenom
+2025-03-20 13:29:20,845 - db_cleaner - INFO - Cleaned text field employe.telephone
+2025-03-20 13:29:20,846 - db_cleaner - INFO - Cleaned text field employe.twitter
+2025-03-20 13:29:20,846 - db_cleaner - INFO - Cleaned text field employe.entreprise_id
+2025-03-20 13:29:20,847 - db_cleaner - INFO - Cleaned text field entreprise.siren
+2025-03-20 13:29:20,848 - db_cleaner - INFO - Cleaned text field entreprise.devise
+2025-03-20 13:29:20,849 - db_cleaner - INFO - Cleaned text field entreprise.nom_entreprise
+2025-03-20 13:29:20,850 - db_cleaner - INFO - Cleaned text field entreprise.activite_principale
+2025-03-20 13:29:20,851 - db_cleaner - INFO - Cleaned text field entreprise.code_ape
+2025-03-20 13:29:20,852 - db_cleaner - INFO - Cleaned text field entreprise.email
+2025-03-20 13:29:20,853 - db_cleaner - INFO - Cleaned text field entreprise.facebook
+2025-03-20 13:29:20,854 - db_cleaner - INFO - Cleaned text field entreprise.form_juridique
+2025-03-20 13:29:20,855 - db_cleaner - INFO - Cleaned text field entreprise.instagram
+2025-03-20 13:29:20,856 - db_cleaner - INFO - Cleaned text field entreprise.linked_in
+2025-03-20 13:29:20,857 - db_cleaner - INFO - Cleaned text field entreprise.secteur_activity
+2025-03-20 13:29:20,858 - db_cleaner - INFO - Cleaned text field entreprise.telephone
+2025-03-20 13:29:20,858 - db_cleaner - INFO - Cleaned text field entreprise.twitter
+2025-03-20 13:29:20,859 - db_cleaner - INFO - Cleaned text field user_roles.role
+2025-03-20 13:29:20,860 - db_cleaner - INFO - Cleaned text field dirigeant.email
+2025-03-20 13:29:20,860 - db_cleaner - INFO - Cleaned text field dirigeant.fonction
+2025-03-20 13:29:20,861 - db_cleaner - INFO - Cleaned text field dirigeant.nom
+2025-03-20 13:29:20,862 - db_cleaner - INFO - Cleaned text field dirigeant.prenom
+2025-03-20 13:29:20,863 - db_cleaner - INFO - Cleaned text field dirigeant.telephone
+2025-03-20 13:29:20,864 - db_cleaner - INFO - Cleaned text field adresses.code_pays
+2025-03-20 13:29:20,865 - db_cleaner - INFO - Cleaned text field adresses.code_postal
+2025-03-20 13:29:20,865 - db_cleaner - INFO - Cleaned text field adresses.commune
+2025-03-20 13:29:20,866 - db_cleaner - INFO - Cleaned text field adresses.complement_localisation
+2025-03-20 13:29:20,867 - db_cleaner - INFO - Cleaned text field adresses.num_voie
+2025-03-20 13:29:20,867 - db_cleaner - INFO - Cleaned text field adresses.pays
+2025-03-20 13:29:20,868 - db_cleaner - INFO - Cleaned text field adresses.voie
+2025-03-20 13:29:20,870 - db_cleaner - INFO - Cleaned text field file_upload.file_name
+2025-03-20 13:29:20,871 - db_cleaner - INFO - Cleaned text field file_upload.file_path
+2025-03-20 13:29:20,871 - db_cleaner - INFO - Cleaned text field file_upload.file_type
+2025-03-20 13:29:20,872 - db_cleaner - INFO - Cleaned text field file_upload.statut
+2025-03-20 13:29:20,873 - db_cleaner - INFO - Cleaned text field users.email
+2025-03-20 13:29:20,874 - db_cleaner - INFO - Cleaned text field users.nom
+2025-03-20 13:29:20,875 - db_cleaner - INFO - Cleaned text field users.password
+2025-03-20 13:29:20,876 - db_cleaner - INFO - Cleaned text field users.prenom
+2025-03-20 13:29:20,877 - db_cleaner - INFO - Cleaned text field users.telephone
+2025-03-20 13:29:20,878 - db_cleaner - INFO - Cleaned text field users.username
+2025-03-20 13:29:20,878 - db_cleaner - INFO - Starting date standardization
+2025-03-20 13:29:20,878 - db_cleaner - INFO - Standardized dates in etablissement.end_date
+2025-03-20 13:29:20,878 - db_cleaner - INFO - Standardized dates in etablissement.start_date
+2025-03-20 13:29:20,879 - db_cleaner - INFO - Standardized dates in employe.date_depart
+2025-03-20 13:29:20,879 - db_cleaner - INFO - Standardized dates in employe.date_embauche
+2025-03-20 13:29:20,880 - db_cleaner - INFO - Standardized dates in entreprise.date_creation
+2025-03-20 13:29:20,880 - db_cleaner - INFO - Standardized dates in dirigeant.date_debut_fonction
+2025-03-20 13:29:20,880 - db_cleaner - INFO - Standardized dates in dirigeant.date_fin_fonction
+2025-03-20 13:29:20,881 - db_cleaner - INFO - Standardized dates in dirigeant.date_naissance
+2025-03-20 13:29:20,881 - db_cleaner - INFO - Standardized dates in users.date_creation
+2025-03-20 13:29:20,881 - db_cleaner - INFO - Starting missing value filling
+2025-03-20 13:29:20,885 - db_cleaner - INFO - Filled 2 missing values in entreprise.nbr_etablissements with default: 1
+2025-03-20 13:29:20,887 - db_cleaner - INFO - Filled 2 missing values in entreprise.nbr_etablissements_fermet with default: 0
+2025-03-20 13:29:20,889 - db_cleaner - INFO - Filled 2 missing values in entreprise.effective with default: 0
+2025-03-20 13:29:20,893 - db_cleaner - ERROR - Error filling missing values in entreprise.devise: (psycopg2.errors.UndefinedColumn) column "pays" does not exist
+LINE 4:                 WHERE devise IS NULL AND pays = 'France'
+                                                 ^
+
+[SQL: 
+                UPDATE entreprise
+                SET devise = 'EUR'
+                WHERE devise IS NULL AND pays = 'France'
+                ]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+2025-03-20 13:29:20,897 - db_cleaner - INFO - Database cleaning completed successfully
+2025-03-21 08:41:28,156 - db_cleaner - INFO - Starting database cleaning operations
+2025-03-21 08:41:28,296 - db_cleaner - INFO - Connected to database Datapull on localhost
+2025-03-21 08:41:28,377 - db_cleaner - INFO - Found 11 tables in schema public
+2025-03-21 08:41:28,436 - db_cleaner - INFO - Starting email format cleaning
+2025-03-21 08:41:28,442 - db_cleaner - INFO - Cleaned email formats in employe.email
+2025-03-21 08:41:28,447 - db_cleaner - INFO - Cleaned email formats in entreprise.email
+2025-03-21 08:41:28,450 - db_cleaner - INFO - Cleaned email formats in dirigeant.email
+2025-03-21 08:41:28,454 - db_cleaner - INFO - Cleaned email formats in users.email
+2025-03-21 08:41:28,455 - db_cleaner - INFO - Starting phone format cleaning
+2025-03-21 08:41:28,458 - db_cleaner - INFO - Cleaned phone formats in employe.telephone
+2025-03-21 08:41:28,461 - db_cleaner - INFO - Cleaned phone formats in entreprise.telephone
+2025-03-21 08:41:28,463 - db_cleaner - INFO - Cleaned phone formats in dirigeant.telephone
+2025-03-21 08:41:28,465 - db_cleaner - INFO - Cleaned phone formats in users.telephone
+2025-03-21 08:41:28,465 - db_cleaner - INFO - Starting text field cleaning
+2025-03-21 08:41:28,470 - db_cleaner - INFO - Cleaned text field attribut_partage.nom
+2025-03-21 08:41:28,471 - db_cleaner - INFO - Cleaned text field attribut_partage.valeur
+2025-03-21 08:41:28,474 - db_cleaner - INFO - Cleaned text field entreprise_dirigeant.entreprise_id
+2025-03-21 08:41:28,480 - db_cleaner - INFO - Cleaned text field etablissement.siret
+2025-03-21 08:41:28,481 - db_cleaner - INFO - Cleaned text field etablissement.activite
+2025-03-21 08:41:28,483 - db_cleaner - INFO - Cleaned text field etablissement.code_ape
+2025-03-21 08:41:28,484 - db_cleaner - INFO - Cleaned text field etablissement.siren
+2025-03-21 08:41:28,487 - db_cleaner - INFO - Cleaned text field entreprise_attributs.entreprise_id
+2025-03-21 08:41:28,489 - db_cleaner - INFO - Cleaned text field entreprise_attributs.valeurc
+2025-03-21 08:41:28,492 - db_cleaner - INFO - Cleaned text field entreprise_attributs.nom_attributc
+2025-03-21 08:41:28,493 - db_cleaner - INFO - Cleaned text field employe.departement
+2025-03-21 08:41:28,494 - db_cleaner - INFO - Cleaned text field employe.email
+2025-03-21 08:41:28,495 - db_cleaner - INFO - Cleaned text field employe.facebook
+2025-03-21 08:41:28,496 - db_cleaner - INFO - Cleaned text field employe.instagram
+2025-03-21 08:41:28,497 - db_cleaner - INFO - Cleaned text field employe.linkedin
+2025-03-21 08:41:28,499 - db_cleaner - INFO - Cleaned text field employe.nom
+2025-03-21 08:41:28,500 - db_cleaner - INFO - Cleaned text field employe.poste
+2025-03-21 08:41:28,502 - db_cleaner - INFO - Cleaned text field employe.prenom
+2025-03-21 08:41:28,503 - db_cleaner - INFO - Cleaned text field employe.telephone
+2025-03-21 08:41:28,504 - db_cleaner - INFO - Cleaned text field employe.twitter
+2025-03-21 08:41:28,505 - db_cleaner - INFO - Cleaned text field employe.entreprise_id
+2025-03-21 08:41:28,506 - db_cleaner - INFO - Cleaned text field entreprise.siren
+2025-03-21 08:41:28,508 - db_cleaner - INFO - Cleaned text field entreprise.devise
+2025-03-21 08:41:28,510 - db_cleaner - INFO - Cleaned text field entreprise.nom_entreprise
+2025-03-21 08:41:28,511 - db_cleaner - INFO - Cleaned text field entreprise.activite_principale
+2025-03-21 08:41:28,512 - db_cleaner - INFO - Cleaned text field entreprise.code_ape
+2025-03-21 08:41:28,513 - db_cleaner - INFO - Cleaned text field entreprise.email
+2025-03-21 08:41:28,514 - db_cleaner - INFO - Cleaned text field entreprise.facebook
+2025-03-21 08:41:28,515 - db_cleaner - INFO - Cleaned text field entreprise.form_juridique
+2025-03-21 08:41:28,517 - db_cleaner - INFO - Cleaned text field entreprise.instagram
+2025-03-21 08:41:28,518 - db_cleaner - INFO - Cleaned text field entreprise.linked_in
+2025-03-21 08:41:28,519 - db_cleaner - INFO - Cleaned text field entreprise.secteur_activity
+2025-03-21 08:41:28,520 - db_cleaner - INFO - Cleaned text field entreprise.telephone
+2025-03-21 08:41:28,521 - db_cleaner - INFO - Cleaned text field entreprise.twitter
+2025-03-21 08:41:28,523 - db_cleaner - INFO - Cleaned text field user_roles.role
+2025-03-21 08:41:28,525 - db_cleaner - INFO - Cleaned text field dirigeant.email
+2025-03-21 08:41:28,526 - db_cleaner - INFO - Cleaned text field dirigeant.fonction
+2025-03-21 08:41:28,528 - db_cleaner - INFO - Cleaned text field dirigeant.nom
+2025-03-21 08:41:28,530 - db_cleaner - INFO - Cleaned text field dirigeant.prenom
+2025-03-21 08:41:28,531 - db_cleaner - INFO - Cleaned text field dirigeant.telephone
+2025-03-21 08:41:28,533 - db_cleaner - INFO - Cleaned text field adresses.code_pays
+2025-03-21 08:41:28,535 - db_cleaner - INFO - Cleaned text field adresses.code_postal
+2025-03-21 08:41:28,536 - db_cleaner - INFO - Cleaned text field adresses.commune
+2025-03-21 08:41:28,538 - db_cleaner - INFO - Cleaned text field adresses.complement_localisation
+2025-03-21 08:41:28,540 - db_cleaner - INFO - Cleaned text field adresses.num_voie
+2025-03-21 08:41:28,541 - db_cleaner - INFO - Cleaned text field adresses.pays
+2025-03-21 08:41:28,542 - db_cleaner - INFO - Cleaned text field adresses.voie
+2025-03-21 08:41:28,545 - db_cleaner - INFO - Cleaned text field file_upload.file_name
+2025-03-21 08:41:28,546 - db_cleaner - INFO - Cleaned text field file_upload.file_path
+2025-03-21 08:41:28,547 - db_cleaner - INFO - Cleaned text field file_upload.file_type
+2025-03-21 08:41:28,548 - db_cleaner - INFO - Cleaned text field file_upload.statut
+2025-03-21 08:41:28,549 - db_cleaner - INFO - Cleaned text field users.email
+2025-03-21 08:41:28,551 - db_cleaner - INFO - Cleaned text field users.nom
+2025-03-21 08:41:28,552 - db_cleaner - INFO - Cleaned text field users.password
+2025-03-21 08:41:28,553 - db_cleaner - INFO - Cleaned text field users.prenom
+2025-03-21 08:41:28,556 - db_cleaner - INFO - Cleaned text field users.telephone
+2025-03-21 08:41:28,559 - db_cleaner - INFO - Cleaned text field users.username
+2025-03-21 08:41:28,559 - db_cleaner - INFO - Starting date standardization
+2025-03-21 08:41:28,560 - db_cleaner - INFO - Standardized dates in etablissement.end_date
+2025-03-21 08:41:28,560 - db_cleaner - INFO - Standardized dates in etablissement.start_date
+2025-03-21 08:41:28,561 - db_cleaner - INFO - Standardized dates in employe.date_depart
+2025-03-21 08:41:28,561 - db_cleaner - INFO - Standardized dates in employe.date_embauche
+2025-03-21 08:41:28,563 - db_cleaner - INFO - Standardized dates in entreprise.date_creation
+2025-03-21 08:41:28,563 - db_cleaner - INFO - Standardized dates in dirigeant.date_debut_fonction
+2025-03-21 08:41:28,563 - db_cleaner - INFO - Standardized dates in dirigeant.date_fin_fonction
+2025-03-21 08:41:28,564 - db_cleaner - INFO - Standardized dates in dirigeant.date_naissance
+2025-03-21 08:41:28,565 - db_cleaner - INFO - Standardized dates in users.date_creation
+2025-03-21 08:41:28,566 - db_cleaner - INFO - Starting missing value filling
+2025-03-21 08:41:28,570 - db_cleaner - INFO - Filled 5 missing values in entreprise.nbr_etablissements with default: 1
+2025-03-21 08:41:28,573 - db_cleaner - INFO - Filled 5 missing values in entreprise.nbr_etablissements_fermet with default: 0
+2025-03-21 08:41:28,576 - db_cleaner - INFO - Filled 5 missing values in entreprise.effective with default: 0
+2025-03-21 08:41:28,577 - db_cleaner - INFO - Filled 5 missing values in entreprise.devise with default: EUR
+2025-03-21 08:41:28,582 - db_cleaner - INFO - Database cleaning completed successfully
